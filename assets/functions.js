@@ -13,7 +13,7 @@ function moveRight(){
     });
     }
     
-    function moveLeft (){
+function moveLeft (){
     arrowLeft.addEventListener("click", function () {
         arrayDots[index].classList.remove("dot_selected");
         index--;
@@ -24,7 +24,7 @@ function moveRight(){
         imageSlidehow.src = slides[index].image;
         slidehowTexte.innerHTML = slides[index].tagLine;
     });
-    }
+}
     
     function moveCarousel (){
         moveLeft();
